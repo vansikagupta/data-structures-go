@@ -1,12 +1,6 @@
-package main
+/*
+leetcode #21: https://leetcode.com/problems/merge-two-sorted-lists/
 
-/**
- * Definition for singly-linked list.
- * type ListNode struct {
- *     Val int
- *     Next *ListNode
- * }
- */
 // Inplace and iterative merge implementation
 // 1. first check both lists are non-empty; if not, return the non-nil list
 // 2. result list = min of both list's heads
@@ -14,6 +8,9 @@ package main
 // 4. append min node to result list and move forward
 // 5. repeat 4 and 5
 // 6. append the non-nil remaning list to result list
+*/
+
+package main
 
 func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
 	if l1 == nil {

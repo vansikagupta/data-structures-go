@@ -1,5 +1,5 @@
 /*******
-leetcode question https://leetcode.com/problems/remove-nth-node-from-end-of-list/
+leetcode #19: https://leetcode.com/problems/remove-nth-node-from-end-of-list/
 
 0->1->2->3->4->5->nil
 Sol 1: find len in first traversal,
