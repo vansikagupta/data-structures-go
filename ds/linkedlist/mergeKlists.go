@@ -8,6 +8,22 @@ Algorithm:
 3. If k = 2, merge two lists (see ds/linkedlist/mergeTwoLists.go)
 4. To merge k lists, merge first k/2 lists into list1 and remaining k/2 lists into list2
 5. Now we have two lists to merge, list1 and list2, which can be done easily
+
+Complexity:
+			k
+			/\
+	     k/2   k/2..
+		/\
+	k/4   k/4 ..
+	/\
+k/8   k/8
+|		|
+2		2  .. 2 .. 2
+
+No of levels: log(k)
+At each level, we will be processing n nodes (n is the total no. of nodes in k lists)
+Time Complexity: O(nlogk)
+Space Complexity: O(1) (inplace merge)
 */
 package main
 
