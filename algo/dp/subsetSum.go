@@ -80,6 +80,7 @@ func subsetSumTab(items []int, sum int) bool {
 	for k := 0; k <= sum; k++ {
 		lookup[0][k] = false
 	}
+	// be careful about [0][0]
 	for k := 0; k <= len(items); k++ {
 		lookup[k][0] = true
 	}

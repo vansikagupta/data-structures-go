@@ -63,6 +63,14 @@ Start with filling values of base case states.
 
 Examples:
 * Subset Sum Problem
+    Find whether subset with a given sum exists. 
+    see subsetSum.go
+* Partition Equal Subset Sum
+    Divide given set into two subsets with equal sum. 
+    see partitionEqualSubset.go
+* Count num of subsets with given sum
+    see countSubsetSum.go
+
 
 # Rough Work:
 Homework: Use memoization to calculate fibonacci
