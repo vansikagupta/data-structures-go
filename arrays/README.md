@@ -43,3 +43,7 @@ Deletion - O(n)
 Insert and Delete are expensive operations as they require to shift the elements and potentially need to re-copy elements into new larger array.
 
 **Common array problems with solution**
+
+
+## Must Read
+- https://leetcode.com/problems/find-the-duplicate-number/solution/ 
